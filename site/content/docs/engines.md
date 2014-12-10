@@ -60,8 +60,8 @@ shipyard cli> shipyard add-engine --id local-socket \
 ## View Engines
 ```bash
 shipyard cli> shipyard engines
-ID      Cpus    Memory  Host                    Labels
-local   4.00    8192.00 http://172.16.1.50:2375 local,dev
+ID                Cpus    Memory  Host                    Labels
+local-socket-id   4.00    8192.00 http://172.16.1.50:2375 local,dev
 ```
 
 ## Inspect an Engine
